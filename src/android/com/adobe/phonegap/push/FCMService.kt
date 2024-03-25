@@ -248,6 +248,7 @@ class FCMService : FirebaseMessagingService() {
         || key == PushConstants.TWILIO_BODY
         || key == messageKey
         || key == PushConstants.AWS_PINPOINT_BODY
+        || key == PushConstants.PULSE_TEXT
       -> {
         PushConstants.MESSAGE
       }
