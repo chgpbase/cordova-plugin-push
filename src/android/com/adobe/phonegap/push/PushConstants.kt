@@ -111,4 +111,7 @@ object PushConstants {
   const val MESSAGE_ID: String = "google.message_id"
   const val IS_ENABLED: String = "isEnabled"
   const val PULSE_TEXT: String = "text"
+  const val PULSE_UUID: String = "uuid"
+  const val PULSE_URL: String = "url"
+  const val PULSE_BTN: String = "btn"
 }
