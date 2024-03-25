@@ -92,7 +92,11 @@ class PushPlugin : CordovaPlugin() {
             PushConstants.MESSAGE,
             PushConstants.COUNT,
             PushConstants.SOUND,
-            PushConstants.IMAGE
+            PushConstants.IMAGE,
+            PushConstants.PULSE_TEXT,
+            PushConstants.PULSE_UUID,
+            PushConstants.PULSE_URL,
+            PushConstants.PULSE_BTN
           )
 
           val it: Iterator<String> = extras.keySet().iterator()
